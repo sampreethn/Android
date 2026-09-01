@@ -1,4 +1,4 @@
-# **Root your android device** 
+<img width="805" height="498" alt="Screenshot from 2026-09-01 12-06-14" src="https://github.com/user-attachments/assets/2703f3ea-f886-45d5-b64a-400242b18036" /># **Root your android device** 
 
 #android11#nethunter#rooting#superuser 
 
@@ -32,34 +32,27 @@ Rooting is a process of giving the device user the superuser permissions or the 
 
 3. Put your device into fastboot mode 
 
-   - code : adb reboot bootloader 
+```adb reboot bootloader ```
 
-4. Connect your device to your pc through a usb cable and OEM 
+4. Connect your device to your pc through a usb cable and OEM unlock. 
 
-unlock. 
+``` fastboot oem unlock ```
 
-code : fastboot oem unlock 
+<img width="368" height="607" alt="Screenshot from 2026-09-01 12-06-04" src="https://github.com/user-attachments/assets/4734d3ce-40af-422d-81bd-1829b85c274b" />
 
-### Unlock bootloader? 
+6. Press the volume down button once to select the 'yes' option and then press the power button to unlock the oem.
 
-If you unlock the bootloader, you will be able to install custom operating system software on this phone. 
+7. To root your device you need to follow a few steps.
 
-A custom OS is not subject to the same testing as the original OS, and can cause your phone and installed applications to stop working properly. 
+7.1. Download the device firmware either from their
+community or from [xda forums](https://xdaforums.com/) on your pc.
 
-To prevent unauthorized access to your personal data, unlocking the bootloader will also delete all personal data from your phone (a “factory data reset”). 
-
-Press the Volume Up/Down buttons to select Yes or No. Then press the Power button to continue. 
-
-Yes 
-
-Unlock bootloader (may void warranty) 
-
-
-
-<!-- Start of picture text -->
-No<br>Do not unlock bootloader and restart phone<br><!-- End of picture text -->
+7.2. Download [Payload Dumper](https://bit.ly/3O38nbz) and
+[Platform tools](https://developer.android.com/tools/releases/platform-tools) on your pc 
 
 7.3. Extract and open the device firmware folder and copy the payload.bin file for my oneplus device it looks like this 
+
+<img width="805" height="498" alt="Screenshot from 2026-09-01 12-06-14" src="https://github.com/user-attachments/assets/fb2f7e7d-13e7-44e0-acd1-3fbcebf77115" />
 
 
 
@@ -73,7 +66,7 @@ No<br>Do not unlock bootloader and restart phone<br><!-- End of picture text -->
 
 7.8. Execute the following command: 
 
-code: adb push boot.img storage/self/primary/ 
+```adb push boot.img storage/self/primary/``` 
 
 7.9. On your phone search for magisk in your browser and 
 
@@ -81,19 +74,17 @@ download and install the latest version. Or install magisk code : adb install ma
 
 7.10. Open the magisk application and click on install 
 
+<img width="392" height="885" alt="Screenshot from 2026-09-01 12-06-25" src="https://github.com/user-attachments/assets/e8600077-a32d-4f6c-ac6a-f69fba78396b" />
+
+7.11. Next click on select and patch a file then navigate to the boot.img file on your phone and select it.
+
+<img width="392" height="885" alt="Screenshot from 2026-09-01 12-06-32" src="https://github.com/user-attachments/assets/97118be6-a03f-449f-b2cb-f2fe0e996bfe" />
+
+7.12. Copy the patched file to your pc.
+<img width="809" height="403" alt="Screenshot from 2026-09-01 12-06-41" src="https://github.com/user-attachments/assets/4bd97c04-9b5f-49e3-8ab9-9c5ec280cca2" />
 
 
-<!-- Start of picture text -->
-10:08 G @ A Se ull 73%e<br>Home $03<br>oNaie Magisk. ($] Install<br>Installed N/A<br>Zygisk No<br>Ramdisk Yes<br>| App [3] Install<br>Latest 27.0(27000)<br>Installed 27.0(27000)<br>Package com.topjohnwu.magisk<br>Support Us<br>Follow Us<br>@topjohnwu . ws)<br>ewb2060 YF C)<br>@yujinchengOs J a) @<br>Logs<br><!-- End of picture text -->
-
-
-
-<!-- Start of picture text -->
-11:43 @ AS fe ll 71%ow<br>= Redev_utlimatte Q.<br>Alarms Android<br>Audiobooks DCIM<br>Documents Download<br>Movies Music<br>|<br>Notifications Pictures<br>Podcasts Recordings<br>Ringtones<br>Ka Ka<br>i Wd it Wi<br>142x142.grey boot.img<br>a* Selecta raw image (*.img) or an ODIN<br>tarfile (*.tar) or a payload.bin (*.bin)<br><!-- End of picture text -->
-
-
-
-#### 7.13. Enter fastboot mode on your phone and type the following in your pc 
+7.13. Enter fastboot mode on your phone and type the following in your pc 
 
 ```
 fastboot flash boot patchedfile.img
@@ -102,8 +93,9 @@ fastboot flash boot patchedfile.img
 Note: Remember to replace the patchedfile.img by the file you copied to your computer. 
 
 
+<img width="802" height="146" alt="Screenshot from 2026-09-01 12-06-51" src="https://github.com/user-attachments/assets/3d99709b-04d9-4a90-9ae6-2c4b64c5cd8c" />
 
-#### 7.14. Boot your phone by pressing the power button and 
+7.14. Boot your phone by pressing the power button and 
 
 you are good to go. 
 
@@ -113,5 +105,5 @@ install the rootchecker app and hit on verify
 
 root. 
 
-#### That's it folks happy rooting, dont brick your phone. 
+That's it folks happy rooting, dont brick your phone. 
 
