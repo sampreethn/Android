@@ -22,9 +22,7 @@ Rooting is a process of giving the device user the superuser permissions or the 
 
 7. It is done to remove the restrictions that the device hardware manufacturer and the carriers have put on the device 
 
-## **How To Root An Android** 
-
-## **Device?** 
+## **How To Root An Android Device?** 
 
 1. If you are running android 12 or greater there is a possibility that you are prevented to unlock the OEM so follow the guide to downgrade your device. 
 
