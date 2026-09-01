@@ -1,4 +1,4 @@
-<img width="805" height="498" alt="Screenshot from 2026-09-01 12-06-14" src="https://github.com/user-attachments/assets/2703f3ea-f886-45d5-b64a-400242b18036" /># **Root your android device** 
+# **Root your android device** 
 
 #android11#nethunter#rooting#superuser 
 
