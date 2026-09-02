@@ -32,18 +32,20 @@
 <img width="742" height="373" alt="Screenshot from 2026-09-02 10-13-31" src="https://github.com/user-attachments/assets/dc2f10a6-d0fc-4e23-81d4-5c1b40bab813" />
 
    3. Then type
+ 
    ```
-   adb devices
-    ```
+      adb devices
+   ```
 
-      in the command prompt. You will get a string with the device being connected to your pc
+   in the command prompt. You will get a string with the device being connected to your pc
 <img width="742" height="373" alt="Screenshot from 2026-09-02 10-37-18" src="https://github.com/user-attachments/assets/291a3033-d645-405d-b966-72da62610f2a" />
 
    4. Type
-    ```
-    adb reboot bootloader
-    ```
-      in the command prompt.
+      
+   ```
+      adb reboot bootloader
+   ```
+   in the command prompt.
 9.  Your device will reboot into fastboot mode. Now you learnt how to set your phone to fastboot mode.
 <img width="325" height="304" alt="Screenshot from 2026-09-02 10-37-48" src="https://github.com/user-attachments/assets/5cbe92f1-a56f-422e-8a91-217f4939f9b3" />
 
@@ -52,7 +54,7 @@
     **Caution: remember to do this in fastboot mode**
 12. From the stock rom you downloaded, take the .img file and type the following command in the same directory
     ```
-    fastboot flash bootloader [bootloader file name].img
+        fastboot flash bootloader [bootloader file name].img
     ```
 13. Downgrade to the desired version by selecting it in the apk installer.
 <img width="279" height="638" alt="Screenshot from 2026-09-02 10-38-06" src="https://github.com/user-attachments/assets/8f0160ce-4239-4795-a712-f111b44fb727" />
