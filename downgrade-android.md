@@ -50,8 +50,10 @@
 <img width="325" height="304" alt="Screenshot from 2026-09-02 10-37-48" src="https://github.com/user-attachments/assets/5cbe92f1-a56f-422e-8a91-217f4939f9b3" />
 
 10. Press the power button and boot your device.
-11. Search for your local updater apk (for oneplus it is oplocal updater)
-    **Caution: remember to do this in fastboot mode**
+11. Search for your local updater apk (for oneplus it is [oplocal updater](https://androidfilehost.com/?fid=15664248565197197812))
+
+**Caution: remember to do this in fastboot mode**
+
 12. From the stock rom you downloaded, take the .img file and type the following command in the same directory
     ```
         fastboot flash bootloader [bootloader file name].img
