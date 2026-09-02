@@ -1,7 +1,5 @@
 # **Root your android device** 
 
-#android11#nethunter#rooting#superuser 
-
 ## **What Is Rooting?** 
 
 Rooting is a process of giving the device user the superuser permissions or the privilege to access the device system files 
