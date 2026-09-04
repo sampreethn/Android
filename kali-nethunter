@@ -1,0 +1,81 @@
+# Install Kali NetHunter On Your Android Device
+## What is Kali?
+
+Kali Linux is a Debian-derived Linux distribution that is maintained by
+Offensive Security. It was developed by Mati Aharoni and Devon Kearns. Kali
+Linux is a specially designed OS for network analysts, Penetration testers, or
+in simple words, it is for those who work under the umbrella of cybersecurity
+and analysis.
+
+## Kali on android!
+
+Exploring and working with Kali Linux is great but having it on your android
+device is exuberating. We can achieve this by following the steps below
+
+## My device
+
+I have used a OnePlus 7 GM-1901 256 GB storage 8 GB RAM mobile phone with a
+Snapdragon 855 Octa-core processor. This ran android 12 earlier.
+Why OnePlus 7?
+
+1. It was on the Nethunter recommended hardware list` 
+2. It was easily available.` 
+3. I already had an OnePlus 7 and was happy with the service and assistance. My device bricked once and i went to the oneplus service center to get it fixed and they fixed the software for free.
+4. It was one of the affordable phones in the pre used market.
+5. The device firmware was provided by OnePlus Community.
+## How to install NetHunter on your android device
+**Important Repository**
+**Note:** You got to get the versions of the rom right dont ever mess this up here are some of the softwares that i used which may be of help to you.
+1) Roms (Links)
+2) Magisk to root your device
+3) OnePlus Local Update for Android :- To downgrade
+4) TWRP custom bootloader
+5) msmdownload (to recover from bricking issues)
+6) Nethunter
+
+Summary of steps
+1. OEM unlock the boot loader If you are on Android12 downgrade to 11
+2. Root the device
+3. Install Nethunter
+
+## Detailed Steps below
+
+1. [Downgrade your android device to android 11 or lesser. (This step is to be followed only if you have a phone with android version 12 or above In my case I had an android 12 running device and had to downgrade it to android 10.)](https://dev.to/sampreeth/downgrade-your-android-device-to-android-10-o6c)
+2. [Root your android device](https://dev.to/sampreeth/root-your-android-device-10nn). 
+3. Install Kali NetHunter. 
+
+In this post you will be successfully be able to perform the third
+step(installing kali nethunter)
+
+1. Visit store.nethunter.com and download the apk
+
+2. Head to "Downloads" in your local storage and click on NetHunterStore.apk
+
+3. You will get a popup asking you to confirm installation of applications from unknown sources. Click on "ok".
+
+4. Go to NetHunter store and search for NetHunter. Image description
+5. Download and Install : 
+- NetHunter Terminal Kali Linux 
+- NetHunter KeX bVNC customized for NetHunter KeX
+- NetHunter NetHunter installer, updater,
+- interface for Kali Linux on Android.
+
+
+6. Open NetHunter Terminal and type the following commands:` 
+
+```
+pkg install tsu
+apt install wget
+wget -o install-nethunter-termux https://offs.ec/2MceZWr
+sudo apt install nethunter
+nethunter
+nethunter kex passwd 
+nethunter kex 
+``` 
+1. Remember the port number eg 5901
+2. Open NetHunter Kex application that we installed from the NetHunter store earlier and enter the password given to kex earlier under the VNC password textbox.
+
+
+3. After entering the password click on open VNC .
+4. Enjoy your Kali android.
+
