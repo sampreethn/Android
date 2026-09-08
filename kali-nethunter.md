@@ -83,8 +83,10 @@ nethunter kex
 
 2. Open NetHunter Kex application that we installed from the NetHunter store earlier and enter the password given to kex earlier under the VNC password textbox.
 <img width="515" height="1146" alt="Screenshot from 2026-09-08 21-06-37" src="https://github.com/user-attachments/assets/17146a77-9c14-4962-be11-f1b722b323cb" />
+
 3. After entering the password click on open VNC .
 <img width="525" height="1142" alt="Screenshot from 2026-09-08 21-06-49" src="https://github.com/user-attachments/assets/205f87f3-14d8-4ff2-bf36-d1261745949e" />
+
 4. Enjoy your Kali android.
 <img width="731" height="332" alt="Screenshot from 2026-09-08 21-06-56" src="https://github.com/user-attachments/assets/4ff6ba2e-2c51-46ae-982d-a2e5e158afdb" />
 
