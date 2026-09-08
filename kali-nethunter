@@ -38,6 +38,7 @@ Summary of steps
 2. Root the device
 3. Install Nethunter
 
+
 ## Detailed Steps below
 
 1. [Downgrade your android device to android 11 or lesser. (This step is to be followed only if you have a phone with android version 12 or above In my case I had an android 12 running device and had to downgrade it to android 10.)](https://dev.to/sampreeth/downgrade-your-android-device-to-android-10-o6c)
